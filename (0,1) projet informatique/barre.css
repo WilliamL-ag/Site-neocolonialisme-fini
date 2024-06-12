@@ -1,0 +1,9 @@
+
+/*la barre de défilement */
+::-webkit-scrollbar { width: 0.7vw;  background: #9DA39A; box-shadow: inset 0 0 5px rgb(255, 255, 255)} 
+/* Handle */ 
+::-webkit-scrollbar-thumb {  background: #35605A; box-shadow: inset 0 0 5px rgb(255, 255, 255)} 
+/* Handle on hover */
+::-webkit-scrollbar-track {  background: #9DA39A;   box-shadow: inset 0 0 5px rgb(255, 255, 255);  border-radius: 50px;
+
+}

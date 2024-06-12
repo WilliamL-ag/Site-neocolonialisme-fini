@@ -1,0 +1,48 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: #9DA39A   ;
+   
+  .gap{       height: 10px;     }
+
+  @media screen and (max-width: 400px) {
+    div.data {
+      font-size: 40px;
+      line-height: 40px;
+      
+    }
+  }
+
+
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 60px;
+}
+
+.data{
+  text-align: relative;
+  color: #35605A;
+  font-family: playfair display;
+    font-size:150px;
+  line-height: 200px;
+  letter-spacing: 1px ;
+  width: 100%;
+  position:sticky;
+text-align: center;
+margin-top: 7%;
+}
+
+
+
+}
+
